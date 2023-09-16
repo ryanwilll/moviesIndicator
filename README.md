@@ -13,7 +13,7 @@ Para rodar os testes, faça o seguinte:
 
 ## Demonstração
 
-- [Visualizar o projeto](https://ticketgenerator.vercel.app/)
+- [Visualizar o projeto](https://movies-indicator.vercel.app)
 
 ![Imagem do Projeto](https://cdn.discordapp.com/attachments/445335096745000981/1152406505279213680/image.png)
 ## Stack utilizada
