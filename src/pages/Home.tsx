@@ -52,6 +52,7 @@ function Home() {
 
   return (
     <div>
+      {loading && <p>Carregando...</p>}
       <div className={styles.container}>
         <h2 className={styles.title}>Filmes mais visto</h2>
         <div className={styles.moviesContainer}>
