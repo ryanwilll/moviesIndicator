@@ -22,6 +22,7 @@ const MovieCard = ({ showLink, movie }: Props) => {
     <div className="movieCard">
       <img src={`${imageURL}${movie.poster_path}`} alt={`Capa do filme ${movie.title}`} />
       <h2>{movie.title}</h2>
+
       <p>
         <FaStar /> {normalizeNumbers(movie.vote_average)}
       </p>
