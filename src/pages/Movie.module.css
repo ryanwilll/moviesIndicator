@@ -1,0 +1,68 @@
+.error {
+  color: red;
+  text-align: center;
+  font-size: 1rem;
+}
+
+.moviePage {
+  display: flex;
+  color: #fff;
+  flex-direction: column;
+  max-width: 600px;
+  margin: 5rem auto 0;
+}
+
+.moviePage div:nth-child(1) {
+  margin: 0 auto;
+}
+
+.moviePage svg {
+  font-size: 1.5rem;
+  color: #f7d354;
+}
+
+.moviePage h2 {
+  display: flex;
+  gap: 0.5rem;
+  align-items: center;
+  justify-content: center;
+}
+
+.moviePage div p:nth-child(3) {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-size: 1rem;
+  gap: 0.5rem;
+}
+
+.moviePage h2,
+.moviePage h2 + p,
+.moviePage img {
+  margin-bottom: 1rem;
+}
+
+.tagline {
+  text-align: center;
+  font-size: 1.3rem;
+  margin-bottom: 2rem;
+}
+
+.info {
+  margin-bottom: 1.5rem;
+}
+
+.info h3 {
+  margin-bottom: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.description {
+}
+
+.description p {
+  line-height: 1.4rem;
+  padding-bottom: 10rem;
+}

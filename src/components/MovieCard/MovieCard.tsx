@@ -14,12 +14,16 @@ type Props = {
 }
 
 const MovieCard = ({ showLink, movie }: Props) => {
+  const normalizeNumbers = (number: number) => {
+    return Number(number.toFixed(1))
+  }
+
   return (
     <div className="movieCard">
       <img src={`${imageURL}${movie.poster_path}`} alt={`Capa do filme ${movie.title}`} />
       <h2>{movie.title}</h2>
       <p>
-        <FaStar /> {movie.vote_average}
+        <FaStar /> {normalizeNumbers(movie.vote_average)}
       </p>
       {showLink && <Link to={`/movie/${movie.id}`}>Detalhes</Link>}
     </div>
