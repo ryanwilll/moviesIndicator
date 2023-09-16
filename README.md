@@ -15,7 +15,7 @@ Para rodar os testes, faça o seguinte:
 
 - [Visualizar o projeto](https://ticketgenerator.vercel.app/)
 
-![Imagem do Projeto](https://cdn.discordapp.com/attachments/970795622531760170/1142924347099594922/Desktop.png)
+![Imagem do Projeto](https://cdn.discordapp.com/attachments/445335096745000981/1152406505279213680/image.png)
 ## Stack utilizada
 
 - [React-Icons](https://react-icons.github.io/react-icons/)
